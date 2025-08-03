@@ -17,7 +17,7 @@ body {
 
 #h1font {
     /* google font からのコピー */
-    font-family: "Noto Sans JP", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -28,6 +28,7 @@ body {
     border-bottom: 3px solid rgb(115, 115, 114);
 }
 
-#basic div {
+/* basicの配下 pタグを太字に設定 */
+#basic p {
     font-weight: bold;
 }
