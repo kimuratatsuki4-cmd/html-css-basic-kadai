@@ -1,25 +1,25 @@
 h1 {
-    margin: 0px 0px 0px 0px;
     color: rgb(255, 255, 255);
 }
 
+/* h2関連の設定*/
 h2 {
     font-size: 25px;
     border-bottom: 3px dotted rgb(236, 122, 122);
 }
 
-/* h2の前にコロンを表示 */
 h2::before {
     content: '●';
     color: rgb(239, 111, 139);
 }
 
-p {
+p,
+h1,
+body {
     margin: 0px 0px 0px 0px;
 }
 
 body {
-    margin: 0px 0px 0px 0px;
     font-size: 20px
 }
 
@@ -79,6 +79,7 @@ a:hover {
     color: rgb(245, 178, 168);
 }
 
+/* メディアクエリの設定 */
 @media screen and (max-width: 768px) {
     h2 {
         font-size: 30px;
@@ -89,8 +90,7 @@ a:hover {
     }
 
     #parent {
-        display: block;
+        display: flex;
         flex-direction: column;
-        align-items: center;
     }
 }
